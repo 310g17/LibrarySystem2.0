@@ -4,23 +4,17 @@ import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Scanner;
-
-import javax.lang.model.util.ElementScanner14;
-
-import org.hamcrest.core.IsNull;
 
 public class Library
 {
     /**
 	 * Connection to database
 	 */
-	private Connection con;
+	private Connection con;	
 	
 
 	/**
@@ -57,9 +51,9 @@ public class Library
 	public Connection connect() throws SQLException
 	{
 	    // TODO: Fill in your connection information
-		String url = "jdbc:mysql://localhost:3308/librarySystem";
-		String uid = "root";
-		String pw = "310rootpw";
+		String url = "jdbc:sqlserver://sql9.freesqldatabase.com:3306/sql9565844";
+		String uid = "sql9565844";
+		String pw = "rxIJtkEYIg";
 
 		System.out.println("Connecting to database.");
 		// Note: Must assign connection to instance variable as well as returning it back to the caller

@@ -46,7 +46,7 @@
 
 String genre = request.getParameter("genre");
 if(genre == null) {
-	genre = "";
+	genre = "all";
 }
 
 //Note: Forces loading of SQL Server driver
@@ -150,7 +150,16 @@ con.close();
 <h3>Write your username here:</h3>
 <input type="text" name="uname" size="30">
 <input type="submit" value="Submit"><input type="reset" value="Reset">
+<br>
+<h2><a href="summary.jsp">Click here to view book summary</a></h2>
 </form>
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </div>
 </body>
 </html>
