@@ -66,3 +66,8 @@ In this new version of the website the menus leading up to the borrowing of book
 <br>
 <h3> Addition of a book summary via Wikipedia </h3><br>
 Version2.0.1 adds the addition of a book summary feature incorporated into the book list feature. Users are able to write any book into a form and upon submitting the form, users are sent to a new page and are shown the first 2 paragraphs of the Wikipedia page of said book. This utilizes the Java API Jsoup which is a page crawling API.
+
+<H2>New API Added since V2.0</h2>
+JSoup : Used to extract data from websites written in HTML. Taking information from specific tags.<br>
+Java.net.URLEncoder : Encodes Strings to prepare URL’s. Used to support the JSoup API to stitch user input and the wikipedia URL.<br>
+Google Translate web-api: Used to integrate Google’s translation service into HTML. <br>
