@@ -7,7 +7,10 @@ The core functionalities of our system is still the same however, due to the pre
 
 <h2>Changes since V2.0</h2>
 <h3> Addition of Google Translate to the page </h3> <br>
-In this new version of the website the menus leading up to the borrowing of books have beenn given a google translate button. This button works by choosing a language and then click submmit to change the entirety of the page to the selected page. This uses the HTML api for google translate and use scripts to translate the website.
+In this new version of the website the menus leading up to the borrowing of books have been given a Google translate button. This button works by choosing a language and then click submit to change the entirety of the page to the selected page. This uses the HTML API for google translate and use scripts to translate the website.
+
+This new feature can help users translate the page with ease. Those who are unfamiliar with English may have a better time operating the system as it is more user friendly. This also helps with localization of the system. <br>
+
 
 ![alt text](ReadMeRsc/Gtl.png)
 
@@ -16,7 +19,9 @@ In this new version of the website the menus leading up to the borrowing of book
 Page translated to Vietnamese
 
 <h3> Addition of a book summary via Wikipedia </h3><br>
-Version2.0.1 adds the addition of a book summary feature incorporated into the book list feature. Users are able to write any book into a form and upon submitting the form, users are sent to a new page and are shown the first 2 paragraphs of the Wikipedia page of said book. This utilizes the Java API Jsoup which is a page crawling API. <br>
+Version2.0.1 adds the addition of a book summary feature incorporated into the book list feature. Users are able to write any book into a form and upon submitting the form, users are sent to a new page and are shown the first 2 paragraphs of the Wikipedia page of said book. This utilizes the Java API Jsoup which is a page crawling API.
+
+For the users convenience and the overall improvement of the system, the book summary feature is here to help users. Users can now access any Wikipedia summary of a book. Users would not have to navigate away from the site to see the contents of the book. <br>
 
 ![alt text](ReadMeRsc/wkpd2.png)<br>
 
