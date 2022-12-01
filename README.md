@@ -8,12 +8,17 @@ The core functionalities of our system is still the same however, due to the pre
 <h2>Changes since V2.0</h2>
 <h3> Addition of Google Translate to the page </h3> <br>
 In this new version of the website the menus leading up to the borrowing of books have beenn given a google translate button. This button works by choosing a language and then click submmit to change the entirety of the page to the selected page. This uses the HTML api for google translate and use scripts to translate the website.
-<br>
-![alt text](ReadMeRsc/Gtl.png)<br/>
+
+![alt text](ReadMeRsc/Gtl.png)
+
+![alt text](ReadMeRsc/vietnamese.png)
+
+Page translated to Vietnamese
 
 <h3> Addition of a book summary via Wikipedia </h3><br>
-Version2.0.1 adds the addition of a book summary feature incorporated into the book list feature. Users are able to write any book into a form and upon submitting the form, users are sent to a new page and are shown the first 2 paragraphs of the Wikipedia page of said book. This utilizes the Java API Jsoup which is a page crawling API.
-![alt text](ReadMeRsc/wkpd2.png)<br/>
+Version2.0.1 adds the addition of a book summary feature incorporated into the book list feature. Users are able to write any book into a form and upon submitting the form, users are sent to a new page and are shown the first 2 paragraphs of the Wikipedia page of said book. This utilizes the Java API Jsoup which is a page crawling API. <br>
+
+![alt text](ReadMeRsc/wkpd2.png)<br>
 
 ![alt text](ReadMeRsc/wkpd.png)<br/>
 <H2>New API Added since V2.0</h2>
