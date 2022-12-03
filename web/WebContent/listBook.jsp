@@ -142,6 +142,7 @@ while(rst.next()) {
 }
 // Close connection
 con.close();
+
 %>
 <div class="form_pos text-c">
 <h3>Write the complete title of the book you want to borrow (including capital letters on the title):</h3>
@@ -150,6 +151,11 @@ con.close();
 <h3>Write your username here:</h3>
 <input type="text" name="uname" size="30">
 <input type="submit" value="Submit"><input type="reset" value="Reset">
+</form>
+<h3>Get summary of a book</h3>
+<form method="get" action="reviewBook.jsp">
+ <input type="submit" value="Continue">
+ <br>
 </form>
 </div>
 </body>

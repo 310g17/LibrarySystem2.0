@@ -68,6 +68,18 @@ if(!rst.next()){
 				<h2>What do you want to do today?</h2>
 				<br>
 				<br>
+				<h3>Search</h3>
+				<form method="get" action="searchBooks.jsp">
+				<input type="submit" value="Search Book">
+				</form>
+				<br>
+				<br>
+				<h3>Best Sellers</h3>
+				<form method="get" action="bestBooks.jsp">
+				<input type="submit" value="Best Book">
+				</form>
+				<br>
+				<br>
 				<h3>Borrow a Book</h3>
 				<form method="get" action="listBook.jsp">
 				<input type="submit" value="Borrow Book">
